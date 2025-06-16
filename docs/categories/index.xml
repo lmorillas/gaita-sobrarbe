@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Cómo sonó la Gaita en el Sobrarbe</title>
-    <link>http://localhost:1313/gaita-sobrarbe/categories/</link>
+    <link>https://lmorillas.github.io/gaita-sobrarbe/categories/</link>
     <description>Recent content in Categories on Cómo sonó la Gaita en el Sobrarbe</description>
     <generator>Hugo</generator>
     <language>es-es</language>
-    <atom:link href="http://localhost:1313/gaita-sobrarbe/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lmorillas.github.io/gaita-sobrarbe/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
