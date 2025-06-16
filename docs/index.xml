@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>La gaita en Sobrarbe on Cómo sonó la Gaita en el Sobrarbe</title>
-    <link>https://example.com/</link>
+    <link>https://lmorillas.github.io/gaita-sobrarbe/</link>
     <description>Recent content in La gaita en Sobrarbe on Cómo sonó la Gaita en el Sobrarbe</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 16 Jun 2025 08:24:05 +0200</lastBuildDate>
-    <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lmorillas.github.io/gaita-sobrarbe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentacion</title>
-      <link>https://example.com/documentacion/</link>
+      <link>https://lmorillas.github.io/gaita-sobrarbe/documentacion/</link>
       <pubDate>Mon, 16 Jun 2025 08:24:05 +0200</pubDate>
-      <guid>https://example.com/documentacion/</guid>
+      <guid>https://lmorillas.github.io/gaita-sobrarbe/documentacion/</guid>
       <description>&lt;h1 id=&#34;documentación-básica-para-el-estudio-de-la-gaita-en-sobrarbe&#34;&gt;Documentación básica para el estudio de la gaita en Sobrarbe&lt;/h1&gt;&#xA;&lt;h2 id=&#34;fuentes-y-recursos&#34;&gt;Fuentes y recursos&lt;/h2&gt;&#xA;&lt;h2 id=&#34;-cancioneros&#34;&gt;📖📖 Cancioneros&lt;/h2&gt;&#xA;&lt;h4 id=&#34;cancionero-de-mur&#34;&gt;&lt;a href=&#34;https://www.iea.es/catalogo-de-publicaciones/-/asset_publisher/ua0a9hdPwFkF/content/cancionero-popular-altoaragones9788481272666-1/maximized&#34;&gt;Cancionero de Mur&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Cancionero recopilado por el sacerdote y etnógrafo José Mur en la primera mitad del siglo XX.&lt;/p&gt;&#xA;&lt;h4 id=&#34;cancionero-popular-del-alto-aragón-de-gregorio-garcés&#34;&gt;&lt;a href=&#34;https://www.iea.es/catalogo-de-publicaciones/-/asset_publisher/ua0a9hdPwFkF/content/cancionero-popular-del-alto-aragon978-84-8127-077-8-1/maximized&#34;&gt;Cancionero popular del Alto Aragón, de Gregorio Garcés&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Sobre &lt;a href=&#34;https://web.archive.org/web/20120622112702/http://www.alcaladegurrea.es/index.php/mod.pags/mem.detalle/idpag.68/relcategoria.383/idmenu.1054/chk.0c684536fa766537c97131d9895bbda1.html&#34;&gt;Gregorio Garcés&lt;/a&gt; (noticia perdida en la nueva web del Ayuntamiento). Terminado hacia 1960.&lt;/p&gt;&#xA;&lt;h2 id=&#34;-documentos-sonoros-&#34;&gt;🎙️ Documentos sonoros 🎼&lt;/h2&gt;&#xA;&lt;h4 id=&#34;sistema-de-información-de-patrimonio-cultural-aragonés&#34;&gt;&lt;a href=&#34;https://www.sipca.es/censo/resultados_busqueda_oral_avanzada.html?tipobien=IAL&amp;amp;accion=BUSCAR_BIENES&amp;amp;categoria=5&amp;amp;provincia=22&amp;amp;comarca=3&#34;&gt;Sistema de Información de Patrimonio Cultural Aragonés&lt;/a&gt;&lt;/h4&gt;&#xA;&lt;p&gt;Base de datos del SIPCA con las grabaciones específicas de la comarca de Sobrarbe.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mapa</title>
-      <link>https://example.com/mapa/</link>
+      <link>https://lmorillas.github.io/gaita-sobrarbe/mapa/</link>
       <pubDate>Mon, 16 Jun 2025 08:09:35 +0200</pubDate>
-      <guid>https://example.com/mapa/</guid>
+      <guid>https://lmorillas.github.io/gaita-sobrarbe/mapa/</guid>
       <description></description>
     </item>
   </channel>
