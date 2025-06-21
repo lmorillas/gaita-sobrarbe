@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Cómo sonó la Gaita en el Sobrarbe</title>
-    <link>https://lmorillas.github.io/gaita-sobrarbe/tags/</link>
+    <link>https://gaitadeboto.es/tags/</link>
     <description>Recent content in Tags on Cómo sonó la Gaita en el Sobrarbe</description>
     <generator>Hugo</generator>
     <language>es-es</language>
     <lastBuildDate>Mon, 16 Jun 2025 08:09:35 +0200</lastBuildDate>
-    <atom:link href="https://lmorillas.github.io/gaita-sobrarbe/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gaitadeboto.es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fuentes</title>
-      <link>https://lmorillas.github.io/gaita-sobrarbe/tags/fuentes/</link>
+      <link>https://gaitadeboto.es/tags/fuentes/</link>
       <pubDate>Mon, 16 Jun 2025 08:09:35 +0200</pubDate>
-      <guid>https://lmorillas.github.io/gaita-sobrarbe/tags/fuentes/</guid>
+      <guid>https://gaitadeboto.es/tags/fuentes/</guid>
       <description></description>
     </item>
     <item>
       <title>Gaita Sobrarbe</title>
-      <link>https://lmorillas.github.io/gaita-sobrarbe/tags/gaita-sobrarbe/</link>
+      <link>https://gaitadeboto.es/tags/gaita-sobrarbe/</link>
       <pubDate>Mon, 16 Jun 2025 08:09:35 +0200</pubDate>
-      <guid>https://lmorillas.github.io/gaita-sobrarbe/tags/gaita-sobrarbe/</guid>
+      <guid>https://gaitadeboto.es/tags/gaita-sobrarbe/</guid>
       <description></description>
     </item>
     <item>
       <title>Mapa</title>
-      <link>https://lmorillas.github.io/gaita-sobrarbe/tags/mapa/</link>
+      <link>https://gaitadeboto.es/tags/mapa/</link>
       <pubDate>Mon, 16 Jun 2025 08:09:35 +0200</pubDate>
-      <guid>https://lmorillas.github.io/gaita-sobrarbe/tags/mapa/</guid>
+      <guid>https://gaitadeboto.es/tags/mapa/</guid>
       <description></description>
     </item>
   </channel>
