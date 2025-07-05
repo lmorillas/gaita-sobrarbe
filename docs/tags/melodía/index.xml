@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Melodía on Gaita de boto</title><link>https://gaitadeboto.es/tags/melod%C3%ADa/</link><description>Recent content in Melodía on Gaita de boto</description><generator>Hugo</generator><language>es-ES</language><atom:link href="https://gaitadeboto.es/tags/melod%C3%ADa/index.xml" rel="self" type="application/rss+xml"/><item><title>Incipit</title><link>https://gaitadeboto.es/herramientas/incipit/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gaitadeboto.es/herramientas/incipit/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Cómo usar el incipit de las melodías de &lt;strong>musicatradicional.eu&lt;/strong>&lt;/p>
+
+&lt;/div>
+
+&lt;p>Las entradas de Musica Tradicional tienen un incipit que permite identificar la melodía (escucharla y búsquedas)&lt;/p>
+&lt;p>Por ejemplo en &lt;a href="https://musicatradicional.eu/es/piece/18219">El baile de la gaita&lt;/a> aparece:&lt;/p>
+&lt;pre tabindex="0">&lt;code>-3-2-2=0+7+2-2-2-1+3=0
+
+nota inicial: sol
+&lt;/code>&lt;/pre>&lt;div class="audio-container mt-1">
+ &lt;audio controls class="audio-player w-60">
+ &lt;source type="audio/mpeg" src="https://gaitadeboto.es/musica/incipits/12819.mp3" > 
+ Your browser does not support the audio element.
+ &lt;/audio>
+&lt;/div>
+
+&lt;hr>
+
+
+&lt;div class="alert alert-primary" role="alert">
+
+
+ Con una pequeña modificación y viendo la partitura le añadimos la duración de las notas. Añadirmos la primera nota para ponerle su duración:
+
+&lt;/div>
+
+&lt;pre tabindex="0">&lt;code>=0:4 -3:16 -2:16 -2:4 =0:8 +7:4 +2:16 -2:16 -2:8 -1:8 +3:8 =0:8
+&lt;/code>&lt;/pre>&lt;p>Así podemos escuchar esto:&lt;/p></description></item></channel></rss>
