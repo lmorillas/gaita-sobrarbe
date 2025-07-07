@@ -26,4 +26,102 @@ nota inicial: sol
 &lt;/div>
 
 &lt;pre tabindex="0">&lt;code>=0:4 -3:16 -2:16 -2:4 =0:8 +7:4 +2:16 -2:16 -2:8 -1:8 +3:8 =0:8
-&lt;/code>&lt;/pre>&lt;p>Así podemos escuchar esto:&lt;/p></description></item></channel></rss>
+&lt;/code>&lt;/pre>&lt;p>Así podemos escuchar esto:&lt;/p></description></item><item><title>Reproductor</title><link>https://gaitadeboto.es/herramientas/reproductor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://gaitadeboto.es/herramientas/reproductor/</guid><description>&lt;div class="pageinfo pageinfo-primary">
+&lt;p>Reproductor del incipit de las melodías de &lt;strong>musicatradicional.eu&lt;/strong>&lt;/p>
+
+&lt;/div>
+
+&lt;p>Las entradas de Musica Tradicional tienen un incipit que permite identificar la melodía (escucharla y búsquedas)&lt;/p>
+&lt;p>Por ejemplo en &lt;a href="https://musicatradicional.eu/es/piece/18219">El baile de la gaita&lt;/a> aparece:&lt;/p>
+&lt;pre tabindex="0">&lt;code>-3-2-2=0+7+2-2-2-1+3=0
+
+nota inicial: sol
+&lt;/code>&lt;/pre>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.38/Tone.min.js">&lt;/script>
+
+
+&lt;form>
+ &lt;div class="form">
+
+&lt;label class="form-label" for="baseNote">Nota inicial&lt;/label>
+&lt;select class="form-select w-50 mb-4" aria-label="Nota incial" id="baseNote">
+ &lt;option>DO&lt;/option>
+ &lt;option>RE&lt;/option>
+ &lt;option>MI&lt;/option>
+ &lt;option>FA&lt;/option>
+ &lt;option selected>SOL&lt;/option>
+ &lt;option >LA&lt;/option>
+ &lt;option>SI&lt;/option>
+&lt;/select>
+&lt;/div>
+&lt;div class="form">
+ &lt;label for="incipit" class="form-label">Texto incipt&lt;/label>
+ &lt;input type="text" class="form-control" value="-3 -2 -2 =0 +7 +2 -2 -2 -1 +3 =0" id="incipit" aria-describedby="textoIncipit">
+&lt;/div>
+
+&lt;button type="button" class="btn btn-primary mt-3" onclick="playIncipit()">▶ Reproducir&lt;/button>
+
+&lt;/form>
+
+
+&lt;script>
+ const defaultDuration = "8n";
+
+ const notaLatinaToAnglo = {
+ 'DO': 'C',
+ 'RE': 'D',
+ 'MI': 'E',
+ 'FA': 'F',
+ 'SOL': 'G',
+ 'LA': 'A',
+ 'SI': 'B'
+ };
+
+ function convertirNotaLatina(notaLatina) {
+ const nombre = notaLatina.toUpperCase().trim();
+ const anglo = notaLatinaToAnglo[nombre];
+ return anglo ? anglo + '5' : null; 
+ }
+
+ function parseIncipit(input, baseNoteName) {
+ const baseMidi = Tone.Frequency(baseNoteName).toMidi();
+ const steps = input.match(/(=0|[+-]?\d+)/g);
+ let notes = [];
+ let current = baseMidi;
+ let last = baseMidi;
+
+ notes.push({ midi: baseMidi, duration: defaultDuration });
+
+ for (const step of steps || []) {
+ let midi;
+ if (step === "=0") {
+ midi = last;
+ } else {
+ current += parseInt(step);
+ midi = current;
+ }
+ last = midi;
+ notes.push({ midi, duration: defaultDuration });
+ }
+
+ return notes;
+ }
+
+ async function playIncipit() {
+ await Tone.start();
+ const synth = new Tone.Synth({
+ oscillator: { type: "triangle" },
+ envelope: { attack: 0.05, release: 0.3 }
+ }).toDestination();
+
+ const baseNoteLatina = document.getElementById("baseNote").value;
+ const baseNote = convertirNotaLatina(baseNoteLatina);
+ const incipitStr = document.getElementById("incipit").value;
+ const notes = parseIncipit(incipitStr, baseNote);
+ const now = Tone.now();
+
+ notes.forEach((n, i) => {
+ const note = Tone.Frequency(n.midi, "midi").toNote();
+ synth.triggerAttackRelease(note, n.duration, now + i * Tone.Time(n.duration).toSeconds());
+ });
+ }
+&lt;/script></description></item></channel></rss>
